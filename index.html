@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+   <h1 class="bg-dark text-white text-center p-4 mb-4">Tab Component</h1>
+   <div class="container">
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+            <div class="mytab">
+                <ul class="myTabHeading">
+                    <li class="active" data-id="html">HTML</li>
+                    <li data-id="css" >CSS</li>
+                    <li data-id="JavaScript">Javascript</li>
+                    <li data-id="Angular">Angular</li>
+                </ul>
+                <div class="myTabBody card">
+                   <div class="tabContent card-body active" id="html">
+                    <p>
+                       <strong>HTML</strong> HTML stands for Hyper Text Markup Language
+                       HTML is the standard markup language for creating Web pages
+                       HTML describes the structure of a Web page
+                       HTML consists of a series of elements
+                       HTML elements tell the browser how to display the content
+                       HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+                       
+                    </p>
+                   </div>
+                   <div class="tabContent card-body" id="css">
+                   <p>
+                    <strong>CSS</strong> CSS is a modern, responsive, mobile first CSS framework.
+
+                    CSS provides equality for all browsers: Chrome. Firefox. Edge. IE. Safari. Opera.
+                    
+                    CSS provides equality for all devices: Desktop. Laptop. Tablet. Mobile.
+                    
+                    CSS is standard CSS only (No jQuery or JavaScript library).
+                   </p>
+                </div>
+                   <div class="tabContent card-body" id="JavaScript">
+                    <p>
+
+                    <strong>Javascript</strong> JavaScript is the world's most popular programming language.
+
+                    JavaScript is the programming language of the Web.
+                    
+                    JavaScript is easy to learn.
+                    
+                    This tutorial will teach you JavaScript from basic to advanced.
+                        </p>
+                   </div>
+                   <div class="tabContent card-body" id="Angular">
+                    <p>
+                    <strong>Angular</strong>Angular is a development platform, built on TypeScript. As a platform, Angular includes:
+
+                    A component-based framework for building scalable web applications
+                    A collection of well-integrated libraries that cover a wide variety of features, including routing, forms management, client-server communication.
+                        </p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <script src="./assets/js/app.js">
+</body>
+</html>
